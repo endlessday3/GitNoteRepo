@@ -1,5 +1,5 @@
 # 创建一个base Image
-```bash
+```javascript
 创建一个base image
 vim Dockerfile
 ==>
