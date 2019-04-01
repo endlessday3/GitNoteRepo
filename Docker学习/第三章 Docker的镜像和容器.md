@@ -13,7 +13,7 @@ docker build -t endlessday3/hello-world .   # 从当前目录去找Dockerfile创
 
 docker image ls 查看到有endlessday3/hello-world的镜像存在了
 
-docker histort *IMAGE ID*   # 通过此命令可以查看image的分层
+docker history *IMAGE ID*   # 通过此命令可以查看image的分层
 
 # 我们可以用这个image执行一个container
 docker run endlessday3/hello-world => hello world!
