@@ -1,2 +1,0 @@
-# GitNoteRepo
-GitNote笔记
