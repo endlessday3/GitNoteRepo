@@ -17,7 +17,6 @@
     ```sql
     create table memory(database int,type varchar(128),key varchar(128),size_in_bytes int,encoding varchar(128),num_elements int,len_largest_element varchar(128));
     ```
-  + 导入csv文件`.`
-
-
+  + 导入csv文件
+- `select sum(size_in_bytes)/(1024*1024) from memory;` 查询key总占用内存
 - [参考资料](https://www.cnblogs.com/aresxin/p/9014617.html)
