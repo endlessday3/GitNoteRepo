@@ -14,9 +14,10 @@
 - 使用sqlite3桌面工具（如`SQLPro for SQLite`）
   + 创建数据库 
   + 建表
-  ```sql
-create table memory(database int,type varchar(128),key varchar(128),size_in_bytes int,encoding varchar(128),num_elements int,len_largest_element varchar(128));
-  ```
+    ```sql
+    create table memory(database int,type varchar(128),key varchar(128),size_in_bytes int,encoding varchar(128),num_elements int,len_largest_element varchar(128));
+    ```
+  + 导入csv文件`.`
 
 
 - [参考资料](https://www.cnblogs.com/aresxin/p/9014617.html)
